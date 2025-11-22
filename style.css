@@ -1,0 +1,182 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: unset;
+}
+
+/* header styling */
+header {
+    background-color: aqua;
+    padding: 0% 0%;
+    text-align: center;
+    height: 18vh;
+    width: 150%;
+    justify-content: space-between;
+}
+
+header .site-info ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-weight: bold;
+}
+
+/* Navigation bar inside header */
+header nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+/* header layout */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    padding: 10px 20px;
+}
+
+/* left side: site info */
+header .site-info ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-weight: bold;
+}
+
+/* right side container */
+header .nav-bar,
+header .Login {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* cart and user plus */
+header .nav-bar nav a {
+    color: black;
+    display: flex;
+    font-size: 20px;
+    margin-left: 10%;
+    text-decoration: none;
+}
+
+/* Login/Register links */
+header .Login nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+header .Login nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* search bar container */
+.search.button {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* input field */
+.search.button input[type="text"] {
+    width: 80%;
+    padding: 10px 40px 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 20%;
+}
+
+/* embedding button */
+.search.button .search_btn {
+    position: absolute;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: gray;
+    border: none;
+    color: whitesmoke;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* main menu styling */
+.main menu {
+    background-color: black;
+    padding: 10px 0;
+}
+
+.main_menu nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.main_menu nav ul li {
+    display: inline-block;
+}
+
+.main_menu nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+/* hover effect */
+.main_menu nav ul li a:hover {
+    background-color: white;
+    color: darkblue;
+    box-shadow: black;
+}
+
+/* footer styling */
+footer {
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer .media.icons ul,
+footer .payment_icons ul,
+footer .website-name ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+footer p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Links inside footer */
+.pages ul a {
+    color: black;
+    font-size: 20px;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+}
